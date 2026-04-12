@@ -1,114 +1,251 @@
-<!-- 标题与欢迎语 / Title & Greeting -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=2C9CF0&center=true&vCenter=true&width=500&lines=Hi+there+%F0%9F%91%8B+exyone-labs;你好+%F0%9F%91%8B+我是+exyone-labs;Welcome+to+my+GitHub+%F0%9F%9A%80;欢迎来到我的+GitHub+%F0%9F%9A%80" alt="Typing SVG" />
-</h1>
+<!--
+  Nord 配色 · 轻量雪花主题 GitHub 主页
+-->
 
-<p align="center">
-  <b>🔧  Building tools for developers · 为开发者构建工具</b><br>
-  <i>Open source enthusiast | Full-stack explorer | Lab spirit</i><br>
-  <i>开源爱好者 | 全栈探索者 | 实验室精神</i>
-</p>
+<div class="nord-wrapper">
+  <div class="snowfield" aria-hidden="true">
+    <div class="snow">❄️</div><div class="snow">❄️</div><div class="snow">❄️</div>
+    <div class="snow">❄️</div><div class="snow">❄️</div><div class="snow">❄️</div>
+    <div class="snow">❄️</div><div class="snow">❄️</div><div class="snow">❄️</div>
+    <div class="snow">❄️</div><div class="snow">❄️</div><div class="snow">❄️</div>
+  </div>
 
-<!-- 装饰分割线 / Decorative divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="80%" />
-</p>
+  <div class="content">
+    <h1 align="center">
+      Hi there 👋 · 你好<br>
+      <span class="accent">exyone-labs</span>
+    </h1>
 
----
+    <p align="center">
+      <strong>❄️ Snowflake & Code Lab ❄️</strong><br>
+      .NET 桌面开发 · ASP.NET · Node.js  |  开源爱好者 · 全栈探索者
+    </p>
 
-## 👨‍💻 About Me / 关于我
+    <hr class="nord-hr">
 
-<p>
-  <b>🇨🇳 Chinese · English bilingual</b><br>
-  I'm the person behind <b>exyone-labs</b> — a creative space for coding experiments, useful libraries, and developer tooling.<br>
-  我是 <b>exyone-labs</b> 的创建者，这里是我进行编码实验、构建实用库和开发者工具的创意空间。
-</p>
+    <div class="highlight-block">
+      🌟 <strong>欢迎大家来访问 / Welcome to my primary tech hub</strong> 🌟<br>
+      🚀 <span class="big-link">👉 <a href="https://git.exyone.me" target="_blank">git.exyone.me</a> 👈</span><br>
+      <span class="note">Tech notes, experiments & first publications</span>
+    </div>
 
-<!-- 双语列表 / Bilingual list (使用图标增强可读性) -->
-<table align="center" width="100%">
-  <tr>
-    <td width="50%">
-      <ul>
-        <li>🔭 <b>Currently working on</b> · 当前工作<br>→ [你的项目名称，如：Next-gen CLI tool]</li>
-        <li>🌱 <b>Learning</b> · 正在学习<br>→ [技术栈，如：Rust, WebAssembly, eBPF]</li>
-        <li>👯 <b>Looking to collaborate on</b> · 希望合作<br>→ [领域，如：开源数据库工具 / 开发者体验]</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <ul>
-        <li>🤔 <b>Looking for help with</b> · 寻求帮助<br>→ [具体方向，如：性能优化 / 分布式系统]</li>
-        <li>💬 <b>Ask me about</b> · 可以问我<br>→ [擅长领域，如：JavaScript, Python, DevOps]</li>
-        <li>📫 <b>How to reach me</b> · 联系我<br>→ <a href="mailto:your-email@example.com">Email</a> / <a href="https://twitter.com/yourhandle">Twitter</a> (占位，请替换)</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+    <hr class="nord-hr">
 
-<p align="center">
-  <b>😄 Pronouns / 代词:</b> He/Him · 他<br>
-  <b>⚡ Fun fact / 趣闻:</b> My first "Hello World" was printed on a dot-matrix printer. 😄<br>
-  <i>我的第一个 "Hello World" 打印在针式打印机上。</i>
-</p>
+    <h2>📡 Digital Outposts</h2>
+    <p>
+      🌐 中文博客 / CN blog: <a href="https://www.exyone.me">www.exyone.me</a><br>
+      🌍 英文博客 / EN blog: <a href="https://exyone.is-a.dev">exyone.is-a.dev</a><br>
+      ☁️ Cloudflare Pages 镜像: <a href="https://exyone.pages.dev">exyone.pages.dev</a>
+    </p>
 
----
+    <h2>📫 联系方式 · Contact</h2>
+    <p>
+      ✉️ <a href="mailto:exyone.dev@icloud.com">exyone.dev@icloud.com</a> · 
+      <a href="mailto:exyone.dev@yandex.com">exyone.dev@yandex.com</a> · 
+      <a href="mailto:root@exyone.me">root@exyone.me</a>
+    </p>
 
-## 🧰 Tech Stack / 技术栈
+    <h2>🪶 其他代码托管平台 · Other Forges</h2>
+    <p>
+      Gitee: <a href="https://gitee.com/exyone">@exyone</a> &nbsp;|&nbsp;
+      Codeberg: <a href="https://codeberg.org/exyone">@exyone</a> &nbsp;|&nbsp;
+      Framagit: <a href="https://framagit.org/exyone">@exyone</a> &nbsp;|&nbsp;
+    </p>
 
-<p align="center">
-  <!-- 常用技术徽章 / 你可以自由增删或替换图标 -->
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <br />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</p>
+    <h2>🛠️ 技术栈 · Tech Stack</h2>
+    <p>
+      <code>.NET 桌面开发</code> <code>ASP.NET Core</code> <code>Node.js</code><br>
+      <span class="small">(Desktop, Web API, Backend services)</span>
+    </p>
 
-<p align="center">
-  <i>（More tools / 更多工具: 可自行添加 .NET, Rust, Kubernetes 等）</i>
-</p>
+    <hr class="nord-hr">
 
----
+    <div align="center">
+      <img height="170em" src="https://github-readme-stats.vercel.app/api?username=exyone-labs&show_icons=true&theme=nord&hide_border=true&bg_color=2E3440&title_color=81A1C1&icon_color=88C0D0&text_color=D8DEE9" />
+      <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=exyone-labs&layout=compact&theme=nord&hide_border=true&bg_color=2E3440&title_color=81A1C1&text_color=D8DEE9" />
+    </div>
+    <div align="center" style="margin-top: 12px;">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=exyone-labs&theme=nord&hide_border=true&background=2E3440&ring=81A1C1&fire=88C0D0&currStreakLabel=81A1C1" width="70%" />
+    </div>
 
-## 📊 GitHub Stats / 统计卡片
+    <hr class="nord-hr">
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=exyone-labs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=exyone-labs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" />
-</p>
+    <div align="center">
+      <img src="https://komarev.com/ghpvc/?username=exyone-labs&label=❄️%20访客%20Snow%20Visitors&color=81A1C1&style=flat-square" alt="visitors" />
+      <p class="footer-note">
+        ❄️ Snow falls silent, code takes shape.<br>
+        <i>always open</i>
+      </p>
+    </div>
+  </div>
+</div>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=exyone-labs&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</p>
+<style>
+:root {
+  --nord0: #D8DEE9;
+  --nord1: #E5E9F0;
+  --nord2: #ECEFF4;
+  --nord3: #81A1C1;
+  --nord4: #2E3440;
+  --nord5: #3B4252;
+  --nord6: #434C5E;
+  --nord7: #8FBCBB;
+  --nord8: #88C0D0;
+  --nord9: #81A1C1;
+  --nord10: #5E81AC;
+  --nord11: #BF616A;
+  --nord12: #D08770;
+  --nord13: #EBCB8B;
+  --nord14: #A3BE8C;
+  --nord15: #B48EAD;
+}
 
----
+.nord-wrapper {
+  position: relative;
+  background-color: var(--nord0);
+  color: var(--nord4);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  padding: 2rem 1.5rem;
+  margin: 0;
+  overflow-x: hidden;
+  border-radius: 0;
+}
 
-## 🔗 Connect with me / 与我联系
+.snowfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
 
-<p align="center">
-  <a href="https://twitter.com/yourhandle" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="mailto:your-email@example.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://yourblog.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=blogger&logoColor=white" />
-  </a>
-</p>
+.snow {
+  position: absolute;
+  top: -20px;
+  font-size: 1.2rem;
+  color: var(--nord6);
+  opacity: 0.6;
+  user-select: none;
+  animation: fallSnow linear infinite;
+}
 
-<p align="center">
-  <i>✨ Feel free to explore my repositories and open issues / 欢迎浏览我的仓库并提交 Issue ✨</i><br>
-  <img src="https://komarev.com/ghpvc/?username=exyone-labs&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
+.snow:nth-child(1) { left: 5%; animation-duration: 12s; animation-delay: 0s; }
+.snow:nth-child(2) { left: 15%; animation-duration: 16s; animation-delay: 2s; font-size: 1rem; }
+.snow:nth-child(3) { left: 25%; animation-duration: 10s; animation-delay: 4s; opacity: 0.8; }
+.snow:nth-child(4) { left: 35%; animation-duration: 18s; animation-delay: 1s; font-size: 1.4rem; }
+.snow:nth-child(5) { left: 45%; animation-duration: 14s; animation-delay: 5s; }
+.snow:nth-child(6) { left: 55%; animation-duration: 20s; animation-delay: 3s; opacity: 0.5; }
+.snow:nth-child(7) { left: 65%; animation-duration: 11s; animation-delay: 7s; font-size: 1.1rem; }
+.snow:nth-child(8) { left: 75%; animation-duration: 15s; animation-delay: 0.5s; }
+.snow:nth-child(9) { left: 85%; animation-duration: 13s; animation-delay: 6s; font-size: 0.9rem; }
+.snow:nth-child(10){ left: 95%; animation-duration: 17s; animation-delay: 2.5s; }
+.snow:nth-child(11){ left: 10%; animation-duration: 22s; animation-delay: 8s; opacity: 0.7; }
+.snow:nth-child(12){ left: 70%; animation-duration: 9s;  animation-delay: 4s; font-size: 1.3rem; }
 
-<!-- 脚注装饰 / Footer wave -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
-</p>
+@keyframes fallSnow {
+  0%   { transform: translateY(-20px) rotate(0deg); opacity: 0; }
+  10%  { opacity: 0.8; }
+  90%  { opacity: 0.8; }
+  100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 880px;
+  margin: 0 auto;
+  background: transparent;
+  padding: 0.5rem;
+}
+
+a {
+  color: var(--nord9);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--nord10);
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--nord8);
+  border-bottom-color: var(--nord8);
+}
+
+.accent {
+  color: var(--nord8);
+  font-weight: 600;
+}
+
+.nord-hr {
+  margin: 2rem 0;
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--nord3), transparent);
+}
+
+.highlight-block {
+  text-align: center;
+  background: rgba(67, 76, 94, 0.25);
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 1.5rem 0;
+  border-left: 3px solid var(--nord8);
+  border-right: 3px solid var(--nord8);
+}
+.big-link {
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+.big-link a {
+  border-bottom: none;
+  background: linear-gradient(120deg, var(--nord8), var(--nord7));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+}
+.big-link a:hover {
+  background: linear-gradient(120deg, var(--nord9), var(--nord6));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.note {
+  font-size: 0.85rem;
+  color: var(--nord3);
+}
+
+code {
+  background: var(--nord1);
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: var(--nord8);
+  margin: 0 2px;
+}
+.small {
+  font-size: 0.8rem;
+  color: var(--nord3);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.footer-note {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--nord3);
+}
+
+@media (max-width: 600px) {
+  .nord-wrapper { padding: 1rem; }
+  .big-link { font-size: 1.2rem; }
+  .highlight-block { padding: 0.8rem; }
+}
+</style>
