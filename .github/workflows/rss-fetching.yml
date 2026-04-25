@@ -2,26 +2,44 @@ name: Update README with Blog Posts
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 0 */3 * *" # 每 72 小时运行一次
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write      # 赋予更新 README 的权限
+  actions: read        # 赋予读取流水线列表的权限
+  workflows: write     # 赋予删除流水线的权限
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Fetch blog posts
-        uses: gautamkrishnar/blog-post-workflow@master
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://exyone.is-a.dev/feed.xml"
           max_post_count: 5
           template: |
-            "<!-- BLOG-POST-LIST:START -->
+            <!-- BLOG-POST-LIST:START -->
             {{#each posts}}
             - [{{title}}]({{url}})
             {{/each}}
-            <!-- BLOG-POST-LIST:END -->"
+            <!-- BLOG-POST-LIST:END -->
+
+      # --- 新增的清理步骤 ---
+      - name: Cleanup old workflow runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          echo "正在清理最近 10 次之外的流水线记录..."
+          # 使用 gh cli 获取流水线列表，跳过前 10 条，剩下的全部删除
+          gh run list --limit 100 --json databaseId --jq '.[10:] | .[].databaseId' | \
+          while read -r run_id; do
+            echo "正在删除流水线 ID: $run_id"
+            gh api -X DELETE "repos/{owner}/{repo}/actions/runs/$run_id"
+          done
+          echo "旧流水线清理完毕！"
