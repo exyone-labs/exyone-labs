@@ -24,6 +24,12 @@
 
 ## 📝 最新文章
 
+<div align="center">
+
+![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=800&center=true&vCenter=true&width=600&lines=.NET+%7C+Jekyll+%7C+Chinese+Literature+%7C+AI;Writing+is+a+form+of+engineering.)
+
+</div>
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
@@ -75,11 +81,9 @@
 
 </div>
 
----
-
 <div align="center">
 
-> **青青子衿，悠悠我心**  
+> **青青子衿，悠悠我心**
 > *但为君故，沉吟至今*
 
 </div>
