@@ -2,42 +2,19 @@ name: Update README with Blog Posts
 
 on:
   schedule:
-    - cron: "0 0 */3 * *" # 每 72 小时运行一次
+    - cron: "0 0 */3 * *"
   workflow_dispatch:
 
 permissions:
-  contents: write   # 更新 README
-  actions: write    # ✅ 删除流水线（这才是正确权限）
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Fetch blog posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://exyone.is-a.dev/feed.xml"
           max_post_count: 5
-          template: |
-            <!-- BLOG-POST-LIST:START -->
-            {{#each posts}}
-            - [{{title}}]({{url}})
-            {{/each}}
-            <!-- BLOG-POST-LIST:END -->
-
-      # ✅ 安全清理旧流水线（不会打断流程）
-      - name: Cleanup old workflow runs
-        if: success()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "🧹 清理 10 次之前的流水线记录..."
-          gh run list --limit 50 --json databaseId --jq '.[10:] | .[].databaseId' | \
-          while read -r run_id; do
-            echo "Deleting run $run_id"
-            gh api -X DELETE "/repos/${{ github.repository }}/actions/runs/$run_id" || true
-          done
-          echo "✅ 清理完成"
