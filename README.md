@@ -22,32 +22,6 @@
 
 ---
 
-## 📝 最新文章
-
-<!-- BLOG-POST-LIST:START -->"<!-- BLOG-POST-LIST:START -->
-{{#each posts}}
-- [{{title}}]({{url}})
-{{/each}}
-<!-- BLOG-POST-LIST:END -->""<!-- BLOG-POST-LIST:START -->
-{{#each posts}}
-- [{{title}}]({{url}})
-{{/each}}
-<!-- BLOG-POST-LIST:END -->""<!-- BLOG-POST-LIST:START -->
-{{#each posts}}
-- [{{title}}]({{url}})
-{{/each}}
-<!-- BLOG-POST-LIST:END -->""<!-- BLOG-POST-LIST:START -->
-{{#each posts}}
-- [{{title}}]({{url}})
-{{/each}}
-<!-- BLOG-POST-LIST:END -->""<!-- BLOG-POST-LIST:START -->
-{{#each posts}}
-- [{{title}}]({{url}})
-{{/each}}
-<!-- BLOG-POST-LIST:END -->"<!-- BLOG-POST-LIST:END -->
-
----
-
 ## 🛠 技术栈
 
 ![.NET](https://img.shields.io/badge/-.NET-5E81AC?style=flat-square&logo=dotnet)
