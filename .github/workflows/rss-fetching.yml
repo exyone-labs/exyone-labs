@@ -17,11 +17,11 @@ jobs:
       - name: Fetch blog posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://exyone.is-a-dev/feed.xml"
+          feed_list: "https://exyone.is-a.dev/feed.xml"
           max_post_count: 5
           template: |
-            <!-- BLOG-POST-LIST:START -->
-            ${{#each posts}}
-            - [${{title}}](${{url}})
-            ${{/each}}
-            <!-- BLOG-POST-LIST:END -->
+            "<!-- BLOG-POST-LIST:START -->
+            {{#each posts}}
+            - [{{title}}]({{url}})
+            {{/each}}
+            <!-- BLOG-POST-LIST:END -->"
