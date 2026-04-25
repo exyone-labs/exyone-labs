@@ -24,12 +24,6 @@
 
 ## 📝 最新文章
 
-<div align="center">
-
-![typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=800&center=true&vCenter=true&width=600&lines=.NET+%7C+Jekyll+%7C+Chinese+Literature+%7C+AI;Writing+is+a+form+of+engineering.)
-
-</div>
-
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
@@ -80,6 +74,8 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=exyone-labs&theme=nord&hide_border=true&background=ECEFF4&ring=81A1C1&fire=88C0D0&currStreakLabel=5E81AC&sideLabels=2E3440" width="70%" />
 
 </div>
+
+---
 
 <div align="center">
 
